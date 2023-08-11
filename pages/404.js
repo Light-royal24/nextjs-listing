@@ -10,14 +10,14 @@ const NotFound = () => {
       // router.go(-1)
       // router.go(1)
       router.push('/')
-    }, 3000)
+    }, 4000)
   }, [])
 
   return (
     <div className="not-found">
       <h1>Ooops...</h1>
       <h2>That page cannot be found :(</h2>
-      <p>Going back to the <Link href="/"><a>Homepage</a></Link> is 3 seconds...</p>
+      <p>Application will Move to <Link href="/"><span>Homepage</span></Link> in 4 seconds...</p>
     </div>
   );
 }
